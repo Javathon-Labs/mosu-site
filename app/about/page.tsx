@@ -20,7 +20,7 @@ export default function Page() {
       </div>
       <div className="mt-8">
         <p className="leading-7">
-          I&apos;m Tahfari Chin (known as "weebthedev"), a fullstack web developer getting to know more about web development, i currently have experience with NextJS, Javascript, React, Svelte, HTML, and CSS.
+          I'm Tahfari Chin (known as "weebthedev"), a fullstack web developer getting to know more about web development, i currently have experience with NextJS, Javascript, React, Svelte, HTML, and CSS.
         </p>
         
         
