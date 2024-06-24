@@ -11,26 +11,16 @@ export default function Hero() {
       </Badge>
 
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center text-balance leading-tight lg:leading-[1.1]">
-        Software engineer driven by learning and challenges.
+        Hello! I'm weebthedev
       </h1>
       <p className="text-lg font-light max-w-xl text-center text-foreground">
-        I aim to create websites that are clean, well-organized, and provide an
-        excellent user experience.
+        I aim to create websites that are clean, simple, and provide an
+        good user experience.
       </p>
       <div className="flex gap-4 py-4 md:pb-10 items-center">
         <Button asChild>
           <Link href="/about">Learn more</Link>
         </Button>
-        <Link
-          href="https://github.com/joeribreedveld"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="outline">
-            <Github className="mr-2 h-4 w-4" />
-            GitHub
-          </Button>
-        </Link>
       </div>
     </section>
   );

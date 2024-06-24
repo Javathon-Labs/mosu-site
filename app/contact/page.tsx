@@ -19,21 +19,29 @@ export default function Page() {
       </div>
       <div className="mt-8">
         <p className="leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          odit voluptates ullam impedit dignissimos maiores? Aliquid quas
-          accusantium corrupti provident blanditiis illo nesciunt nisi nostrum
-          ab quis laborum nihil molestias error necessitatibus magnam, suscipit
-          veritatis eveniet dolorem esse fugiat praesentium in. Quos, alias
-          tenetur necessitatibus vero quidem quae deleniti voluptatibus!
+          You can Reach out to me From either{" "}
+          <Link
+            href="https://discord.gg/2bWdCCK8AR"
+            style={{
+              color: "#7785cc",
+            }}
+          >
+            Discord
+          </Link>
+          , or{" "}
+          <Link
+            href="https://discord.gg/2bWdCCK8AR"
+            style={{
+              color: "#F5C400",
+            }}
+          >
+            Guilded
+          </Link>
+          , i am mostly active on both.
         </p>
 
         <p className="leading-7 mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          odit voluptates ullam impedit dignissimos maiores? Aliquid quas
-          accusantium corrupti provident blanditiis illo nesciunt nisi nostrum
-          ab quis laborum nihil molestias error necessitatibus magnam, suscipit
-          veritatis eveniet dolorem esse fugiat praesentium in. Quos, alias
-          tenetur necessitatibus vero quidem quae deleniti voluptatibus!
+          If im not active on either of those, you can cantact me on my twitter, or my buisness email down below.
         </p>
       </div>
     </main>

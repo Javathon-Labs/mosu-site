@@ -40,35 +40,73 @@ export default function Page() {
           My Experience
         </h1>
         <p className="text-lg text-muted-foreground mt-2">
-          A brief overview of my career
+          A brief overview of my skills
         </p>
       </div>
       <div className="mt-8">
-        <ul className="flex flex-col items-center gap-4">
-          {[...Array(3)].map((_, index) => (
-            <Card key={index}>
+        <ul className="flex flex-col items-left gap-4">
+            <Card>
               <CardHeader>
-                <CardTitle>shadcn/ui</CardTitle>
+                <CardTitle>Svelte</CardTitle>
                 <CardDescription>
-                  Beautifully designed components that you can copy and paste
-                  into your apps. Accessible. Customizable. Open Source.
+                Svelte is a front-end, open-source JavaScript framework for making interactive webpages.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex space-x-4 text-sm text-muted-foreground">
+                  <div className="flex items-center">
+                    <CircleIcon className="mr-1 h-3 w-3 fill-orange-400 text-orange-400" />
+                    Svelte
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>React</CardTitle>
+                <CardDescription>
+                React is a free and open-source front-end JavaScript library for building user interfaces based on components.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex space-x-4 text-sm text-muted-foreground">
                   <div className="flex items-center">
                     <CircleIcon className="mr-1 h-3 w-3 fill-sky-400 text-sky-400" />
-                    TypeScript
+                    React
                   </div>
-                  <div className="flex items-center">
-                    <StarIcon className="mr-1 h-3 w-3" />
-                    20k
-                  </div>
-                  <div>Updated April 2023</div>
                 </div>
               </CardContent>
             </Card>
-          ))}
+            <Card>
+              <CardHeader>
+                <CardTitle>Next.js</CardTitle>
+                <CardDescription>
+                Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation.                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex space-x-4 text-sm text-muted-foreground">
+                  <div className="flex items-center">
+                    <CircleIcon className="mr-1 h-3 w-3 fill-white-400 text-white-400" />
+                    Next.js
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Javascript</CardTitle>
+                <CardDescription>
+                JavaScript is a scripting language used to create and control dynamic website content.                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex space-x-4 text-sm text-muted-foreground">
+                  <div className="flex items-center">
+                    <CircleIcon className="mr-1 h-3 w-3 fill-yellow-400 text-yellow-400" />
+                    Javascript
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
         </ul>
       </div>
     </main>

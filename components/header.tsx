@@ -19,7 +19,7 @@ export default function Header() {
       <div className="w-full justify-start items-center">
         <Link href="/" className="flex items-center">
           <h3 className="text-lg font-semibold tracking-tight">
-            Joeri Breedveld
+            weebthedev
           </h3>
         </Link>
       </div>
@@ -69,7 +69,7 @@ export default function Header() {
           <SheetTrigger asChild>
             <Link className="flex items-center gap-2" href="/">
               <h3 className="text-lg font-semibold tracking-tight">
-                Joeri Breedveld
+                weebthedev
               </h3>
             </Link>
           </SheetTrigger>
