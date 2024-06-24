@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { FaHandPeace } from "react-icons/fa6";
 import Link from "next/link";
 
 export default function Page() {
@@ -19,21 +20,20 @@ export default function Page() {
       </div>
       <div className="mt-8">
         <p className="leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          odit voluptates ullam impedit dignissimos maiores? Aliquid quas
-          accusantium corrupti provident blanditiis illo nesciunt nisi nostrum
-          ab quis laborum nihil molestias error necessitatibus magnam, suscipit
-          veritatis eveniet dolorem esse fugiat praesentium in. Quos, alias
-          tenetur necessitatibus vero quidem quae deleniti voluptatibus!
+          I'm Tahfari Chin (known as "weebthedev"), a fullstack web developer getting to know more about web development, i currently have experience with NextJS, Javascript, React, Svelte, HTML, and CSS.
+        </p>
+        
+        
+        <p className="mt-10">
+          I also make Guilded bots, and have fun working on random projects i make. I play games such as Brawlhalla, Roblox, MultiVersus, etc.
         </p>
 
-        <p className="leading-7 mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          odit voluptates ullam impedit dignissimos maiores? Aliquid quas
-          accusantium corrupti provident blanditiis illo nesciunt nisi nostrum
-          ab quis laborum nihil molestias error necessitatibus magnam, suscipit
-          veritatis eveniet dolorem esse fugiat praesentium in. Quos, alias
-          tenetur necessitatibus vero quidem quae deleniti voluptatibus!
+        <p className="mt-10">
+          :D
+        </p>
+
+        <p className="mt-10">
+          <FaHandPeace className="h-10 w-10"/>
         </p>
       </div>
     </main>

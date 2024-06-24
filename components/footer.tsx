@@ -1,5 +1,5 @@
 import { Instagram, Github, Linkedin, Mail } from "lucide-react";
-import { FaGuilded } from "react-icons/fa";
+import { FaDiscord, FaGuilded, FaTwitter } from "react-icons/fa6";
 
 import { Button } from "./ui/button";
 import Link from "next/link";
@@ -24,34 +24,34 @@ export default function Footer() {
           </Link>
         </li>
         <li>
-          <Link
-            href="https://github.com/joeribreedveld"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="outline">
-              <Github className="h-4 w-4 mr-2" />
-              @joeribreedveld
-            </Button>
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="https://www.linkedin.com/in/joeribreedveld/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="outline">
-              <Linkedin className="h-4 w-4 mr-2" />
-              @joeribreedveld
-            </Button>
-          </Link>
-        </li>
-        <li>
-          <Link href="mailto:joeri.breedveld123@gmail.com">
+          <Link href="mailto:weebjs@gmail.com">
             <Button variant="outline">
               <Mail className="h-4 w-4 mr-2" />
-              joeri.breedveld123@gmail.com
+              weebjs@gmail.com
+            </Button>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="outline">
+              <FaDiscord className="h-4 w-4 mr-2" />
+              @weebguilded
+            </Button>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://x.com/weebthedev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="outline">
+              <FaTwitter className="h-4 w-4 mr-2" />
+              @weebthedev
             </Button>
           </Link>
         </li>
