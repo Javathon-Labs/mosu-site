@@ -1,4 +1,5 @@
 import Hero from "@/components/hero";
+import { ModeToggle } from "@/components/ui/themeswitch";
 
 export default function Page() {
   return (

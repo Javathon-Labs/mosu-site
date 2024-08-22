@@ -12,6 +12,8 @@ import Link from "next/link";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { ModeToggle } from "./ui/themeswitch";
+
 
 export default function Header() {
   return (
@@ -43,10 +45,11 @@ export default function Header() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-      <div className="w-full justify-end items-center hidden md:flex">
+      <div className="w-full justify-end items-center hidden md:flex space-x-4">
         <Link href="/contact">
           <Button>Contact</Button>
         </Link>
+        <ModeToggle />
       </div>
       <Sheet>
         <SheetTrigger asChild className="w-full flex justify-end items-center">
@@ -85,6 +88,9 @@ export default function Header() {
               <SheetTrigger asChild>
                 <Link href="/contact">Contact</Link>
               </SheetTrigger>
+            </li>
+            <li>
+              <ModeToggle />
             </li>
           </ul>
         </SheetContent>
