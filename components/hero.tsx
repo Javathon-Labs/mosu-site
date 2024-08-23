@@ -13,7 +13,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { DemoPaymentMethod } from "./pay-method.jsx";
+
 
 export default function Hero() {
   const [showDonateDialog, setShowDonateDialog] = useState(false);
@@ -36,24 +36,7 @@ export default function Hero() {
                 Learn more
               </Link>
             </Button>
-            <Dialog open={showDonateDialog} onOpenChange={setShowDonateDialog}>
-              <DialogTrigger asChild>
-                <Button>
-                  <HandHeart className="mr-2 h-4 w-4" />
-                  Donate
-                </Button>
-              </DialogTrigger>
-              <DialogContent>
-                <DialogHeader>
-                  <DialogTitle>Donate</DialogTitle>
-                  <DialogDescription>
-                    Thank you for your support! Choose a payment method below.
-                  </DialogDescription>
-                </DialogHeader>
-                <DemoPaymentMethod />
-              </DialogContent>
-            </Dialog>
-          </div>
+            </div>
         </div>
         <div className="md:w-1/3 flex justify-center">
           <Avatar className="w-48 h-48">

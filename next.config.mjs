@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'www.canva.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.guilded.gg',
+      },
     ],
   },
 };
